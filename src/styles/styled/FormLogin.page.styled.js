@@ -1,36 +1,13 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+import styled from 'styled-components';
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-// ========================
-ORIGINAL FORMLOGIN.CSS
+const Wrapper = styled.section`
 
 @font-face {
   font-family: "Han-Solo";
   src: url("/voting-app/public/assets/fonts/hansolov3.ttf");
 }
 @font-face {
-  font-family: "Han-Solo";
+  font-family: "star-jedi";
   src: url("/voting-app/public/assets/fonts/star-jedi.ttf");
 }
 
@@ -198,3 +175,6 @@ ORIGINAL FORMLOGIN.CSS
   color: #27cdff;
   font-weight: 600;
 }
+`
+
+export default Wrapper
